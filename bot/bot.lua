@@ -232,12 +232,10 @@ function create_config( )
     "antiRejoin",
     "pmLoad",
     "inSudo",
-    "blackPlus",
     "toSticker(Text_to_stick)",
     "toPhoto_By_Reply",
     "inPm",
     "autoleave_Super",
-    "black",
     "terminal",
     "sudoers",
     "time",
@@ -259,7 +257,7 @@ function create_config( )
     "inAdmin"
 
     },
-    sudo_users = {56693692},--Sudo users
+    sudo_users = {187161700},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[ ]],
     help_text_realm = [[
@@ -396,8 +394,6 @@ other commands :
 #echo [text]
 #reqgp
 #insta [id|video/photo link]
-#tosupport
-#version
 **You can use "#", "!", or "/" to begin all commands
 *Only owner and mods can add bots in group
 *Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
@@ -494,15 +490,13 @@ other commands :
 #echo [text]
 #reqgp
 #insta [id|video/photo link]
-#tosupport
-#version
 #inv
 **You can use "#", "!", or "/" to begin all commands
 *Only owner can add members to SuperGroup
 (use invite link to invite)
 *Only moderators and owner can use block, ban, unban, newlink, link, setphoto, setname, lock, unlock, setrules, setabout and settings commands
 *Only owner can use res, setowner, promote, demote, and log commands
-Channel : @black_ch
+Channel : @lmAnonymous
 ]],
   }
   serialize_to_file(config, './data/config.lua')
