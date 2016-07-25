@@ -128,13 +128,13 @@ else
   
   chmod 777 blackplus.sh
   
-  #Adding some color. By @MehdiHS
+  #Adding some color. By @nfdat_1
    echo -e "\033[38;5;208m"
-   echo -e "     > Channel : @Black_CH                        "
-   echo -e "     > Developer : @MehdiHS                       "
-   echo -e "     > Bot ID : @BlackPlus                        "
-   echo -e "     > Github : GitHub.com/Mehdi-HS/BlackPlus     "
+   echo -e "     > Channel : @lmAnonymous                     "
+   echo -e "     > Developer : @nfrat_1                       "
+   echo -e "     > Bot ID : @teIegramOnlineBot                        "
+   echo -e "     > Github : GitHub.com/jeiboor/s     "
    echo -e "                                              \033[0;00m"
    echo -e "\e[36m"
-  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/bot.lua -l 1 -E $@
+  ./tg/bin/telegram-cli -b ./tg/tg-server.pub -s ./bot/bot.lua -l 1 -E $@
 fi
